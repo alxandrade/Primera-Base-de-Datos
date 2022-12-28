@@ -1,0 +1,110 @@
+
+.btn_submit{
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.users{
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#container_chat.active>div:last-of-type, #container_chat>div:first-of-type{
+    display: block;
+}
+
+#container_chat>div:last-of-type, #container_chat.active>div:first-of-type{
+    display: none;
+}
+
+#data_user{
+    padding: 20px 35px;
+}
+
+input {
+    width: 98%;
+    height: 3em;
+    max-height: 100%;
+    outline: none;    
+    border: 1px solid #c3c6ce;
+    position: relative;
+    border-radius: 5px;
+    padding-inline-start: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 1.129px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: black;
+    margin: 20px 0px;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+/*Para el Select*/
+.content-select select{
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #7b7b7b;
+	font-size: 1em;
+	color: #999;	
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+ 
+.content-select select:hover{
+	background: #B1E8CD;
+}
+
+.content-select{
+	max-width: 250px;
+	position: relative;
+}
+
+h1 {
+    color: #3785C1;
+    font-size: 35px; 
+}
+  
+h2 {
+    color: #6EAE45;
+    font-size: 30px; 
+}
+  
+h3 {
+    color: orange;
+    font-size: 20px; 
+}
+
+/* Transiciones */
+.img_carrusel:hover {
+    filter: blur(5px); 
+}
+  
+.img_secundarias:hover {
+    filter: grayscale(80%); 
+}
